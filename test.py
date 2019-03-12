@@ -4,7 +4,7 @@
 # @Author : Liuchuan
 # @File   : test.py
 
-from storage import json as jsonx
+from storage import jsonx
 
 header = jsonx.load_json('./configs/request/headers.json')
 print(type(header))

@@ -4,10 +4,11 @@
 # @Author : Liuchuan
 # @File   : cookies.py
 
-from storage import json as jsonx
+from storage import jsonx
 
-def save_cookies(RequestsCookieJar, filename='./cookies.txt'):
-    jsonx.save_json(RequestsCookieJar.get_dict(), filename)
+
+def save_cookies(requests_cookie_jar, filename='./cookies.txt'):
+    jsonx.save_json(requests_cookie_jar.get_dict(), filename)
 
 
 def load_cookies(filename='./cookies.txt'):

@@ -4,11 +4,12 @@
 # @Author : Liuchuan
 # @File   : json.py
 
-import os
+from os import path
 import json
 
+
 def save_json(data, filename='./cookies.txt'):
-    if not os.path.isdir(os.path.dirname(filename)):
+    if not path.isdir(path.dirname(filename)):
         return False
     with open(filename, 'w') as f:
         f.truncate()
@@ -16,14 +17,14 @@ def save_json(data, filename='./cookies.txt'):
 
 
 def load_json(filename='./cookies.txt'):
-    if not os.path.isfile(filename):
+    if not path.isfile(filename):
         return None
 
-    if os.path.getsize(filename) > 0:
+    if path.getsize(filename) > 0:
         with open(filename, 'r') as f:
-            jsonData = json.load(f)
-            if jsonData:
-                return jsonData
+            json_data = json.load(f)
+            if json_data:
+                return json_data
             else:
                 return None
     else:

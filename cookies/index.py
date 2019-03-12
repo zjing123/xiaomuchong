@@ -4,12 +4,12 @@
 # @Author : Liuchuan
 # @File   : index.py
 import requests
-from bs4 import BeautifulSoup
 import time
-from cookies import question
-from storage import cookie
-from storage import json as jsonx
+from bs4 import BeautifulSoup
 from os import path
+from cookies import question
+from storage import jsonx,cookie
+
 
 URL_BASE = 'http://muchong.com/bbs/logging.php?action=login&t='
 

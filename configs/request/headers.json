@@ -1,0 +1,12 @@
+{
+    "Host": "muchong.com",
+    "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Encoding":"gzip, deflate",
+    "Accept-Language":"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Cache-Control" : "max-age=0",
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+    "Proxy-Connection": "Keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Upgrade-Insecure-Requests" : "1",
+    "Cookie" : "_ga=GA1.2.1884146983.1552061558; _discuz_cc=88551566024268178; _emuch_index=1; _gat=1"
+}

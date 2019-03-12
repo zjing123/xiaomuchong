@@ -19,9 +19,13 @@ def load_json(filename='./cookies.txt'):
     if not os.path.isfile(filename):
         return None
 
-    with open(filename, 'r') as f:
-        jsonData = json.load(f)
-        if jsonData:
-            return jsonData
-        else:
-            return None
+    if os.path.getsize(filename) > 0:
+        with open(filename, 'r') as f:
+            jsonData = json.load(f)
+            if jsonData:
+                return jsonData
+            else:
+                return None
+    else:
+        return None
+

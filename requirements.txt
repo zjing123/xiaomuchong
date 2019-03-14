@@ -5,4 +5,3 @@ idna==2.8
 requests==2.21.0
 soupsieve==1.8
 urllib3==1.24.1
-{"_discuz_pw": "b6fa3b287456d2ff", "_discuz_uid": "14531527"}
